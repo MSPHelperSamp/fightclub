@@ -7,7 +7,15 @@ const initializeDatabase = require("./dataBase/functions/createDb");
 
 const app = express();
 app.use(express.json());
-app.use(cors({ origin: ["fightclubton.xyz", "http://localhost:5173"] }));
+app.use(
+  cors({
+    origin: [
+      "http://fightclubton.xyz",
+      "https://fightclubton.xyz",
+      "http://localhost:5173",
+    ],
+  })
+);
 
 // Initialize the database and create the table if it doesn't exist
 initializeDatabase();
