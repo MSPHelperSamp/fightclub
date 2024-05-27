@@ -1,0 +1,29 @@
+.email{
+	display: flex;
+	width: 100%;
+	padding: 150px 150px 150px 150px;
+	form{
+		display: flex;
+		gap: 160px;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		p{
+			color: #701717;
+			font-size: 36px;
+			justify-content: flex-start;
+			display: flex;
+		}
+		input{
+			background-color: #452020;
+			font-size: 36px;
+			color: #321616;
+			border: none;
+			border-radius: 18px;
+			padding: 23px 0 23px 30px;
+			width: 731px;
+			outline: none;
+		}
+	}
+}

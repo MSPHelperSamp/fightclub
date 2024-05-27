@@ -1,0 +1,23 @@
+@import "../../styles/variables";
+
+.navbarSection{
+	display: flex;
+	flex-direction: row;
+	gap: 257px;
+	align-items: center;
+	text-decoration: none;
+	box-sizing: border-box;
+	padding: 0 50px 0 50px;
+	background-color: transparent;
+	width: 100%;
+	.welcome {
+		display: flex;
+		gap: 158px;
+		a{
+			color: #FFD2D2;
+			font-size: 50px;
+			text-decoration: none;
+			cursor: pointer;
+		}
+	}
+}

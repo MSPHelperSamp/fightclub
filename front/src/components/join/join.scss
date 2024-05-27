@@ -1,0 +1,36 @@
+@import "../../styles/variables";
+
+.join{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 65px 0 0 0;
+	background: $brown-red;
+	p{
+		color: #FFFFFF;
+		font-size: 64px;
+	}
+	.joinMain{
+		color: #FFFFFF;
+		font-size: 64px;
+		font-weight: 700;
+		z-index: 100;
+		height: 100%;
+		position: absolute;
+		margin: 300px 0 0 0;
+	}
+	article{
+		display: flex;
+		width: 100%;
+		flex-direction: row;
+		div{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			width: 100%;
+			z-index: 0;
+		}
+	}
+}

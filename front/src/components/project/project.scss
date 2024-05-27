@@ -1,0 +1,93 @@
+.project{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	.textBlock{
+		z-index: 1;
+	}
+	.textBlock p:nth-child(1) {
+		font-size: 48px;
+		font-weight: 700;
+		color: #FFFFFF;
+	}
+	.textBlock p:nth-child(2) {
+		font-size: 128px;
+		font-style: italic;
+		color: #FFFFFF;
+	}
+	.textBlock p:nth-child(3) {
+		font-size: 48px;
+		font-weight: 600;
+		color: #FFFFFF;
+		margin: -30px 0 0 0;
+	}
+	.roadmap {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		gap: 150px;
+		padding: 170px 50px 340px 50px;
+		z-index: 1;
+		.topText{
+			font-size: 48px;
+			font-weight: 700;
+			color: #FFFFFF;
+		}
+		.bottomText{
+			font-size: 14px;
+			font-weight: 700;
+			color: #FFFFFF;
+		}
+		.box{
+			width: 762px;
+			height: 121px;
+			border-radius: 18px;
+			justify-content: center;
+			display: flex;
+			flex-direction: column;
+		}
+	}
+	.roadmap div:nth-child(1) {
+		background: #BB332D;
+		align-self: flex-start;
+	}
+	.roadmap div:nth-child(2) {
+		background: #6F1714;
+		align-self: flex-end;
+	}
+	.roadmap div:nth-child(3) {
+		background: #6F1714;
+		align-self: flex-start;
+	}
+	.roadmap div:nth-child(4) {
+		background: #6F1714;
+		align-self: flex-end;
+	}
+	.roadmap div:nth-child(5) {
+		background: #6F1714;
+		align-self: flex-start;
+	}
+	.projectMan {
+		position: absolute;
+		bottom: 0;
+		z-index: 0;
+	}
+	.projectHand {
+		position: absolute;
+		right: 0;
+		z-index: 0;
+	}
+	.projectTooth {
+		position: absolute;
+		left: 0;
+		z-index: 0;
+	}
+	.fartClub{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		z-index: 0;
+	}
+}

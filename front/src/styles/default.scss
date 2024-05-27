@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+	scrollbar-width: none; /* For Firefox */
+	-ms-overflow-style: none; /* For Internet Explorer & Edge */
+	scroll-behavior: smooth;
+	::-webkit-scrollbar {
+		display: none;
+	}
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+	
+	margin: 0;
+	padding: 0;
+}
+img {
+	pointer-events: none;
+	user-select: none;
+}
+p , h1 , h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+html{
+	box-sizing: border-box;
+}
+*,*::before, *::after{
+	box-sizing: border-box;
+}
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+body {
+	font-family: 'Jost' , sans-serif;
+	font-weight: 900;
+	height: 100%;
+}
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}

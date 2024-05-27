@@ -1,0 +1,10 @@
+@import "../../styles/variables";
+
+.homeSection{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	background-color: $black-red;
+	box-sizing: border-box;
+}
