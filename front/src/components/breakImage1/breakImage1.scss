@@ -1,5 +1,18 @@
 @import "../../styles/variables";
 
-.break{
-	background: $brown-red;
+.break {
+	background-color: $brown-red;
+	background-image: url("../../../public/imageBreak.svg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 667px;
+	width: 100%;
+
+	@media screen and (max-width: 1366px) {
+		min-height: 420px;
+	}
+
+	@media screen and (max-width: 850px) {
+		display: none;
+	}
 }

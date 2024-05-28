@@ -1,29 +1,61 @@
-.email{
+.email {
 	display: flex;
 	width: 100%;
 	padding: 150px 150px 150px 150px;
-	form{
+
+	@media screen and (max-width: 1170px) {
+		padding: 50px 50px;
+	}
+
+	form {
 		display: flex;
 		gap: 160px;
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
 		width: 100%;
-		p{
+
+		@media screen and (max-width: 850px) {
+			flex-direction: column;
+			gap: 50px;
+		}
+
+		p {
 			color: #701717;
 			font-size: 36px;
 			justify-content: flex-start;
 			display: flex;
+
+			@media screen and (max-width: 1919px) {
+				font-size: 34px;
+			}
+
+			@media screen and (max-width: 550px) {
+				font-size: 24px;
+			}
 		}
-		input{
+		input {
 			background-color: #452020;
 			font-size: 36px;
-			color: #321616;
+			color: #fff;
 			border: none;
 			border-radius: 18px;
 			padding: 23px 0 23px 30px;
 			width: 731px;
 			outline: none;
+
+			&::placeholder {
+				color: #ad6a6a;
+			}
+
+			@media screen and (max-width: 850px) {
+				width: 100%;
+			}
+
+			@media screen and (max-width: 550px) {
+				font-size: 24px;
+				padding: 15px;
+			}
 		}
 	}
 }

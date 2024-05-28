@@ -3,20 +3,55 @@
 	height: 100%;
 	background-image: url("/public/imageBreak2.svg");
 	background-repeat: no-repeat;
+	background-size: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 150px 0 0;
+
+	@media screen and (max-width: 1919px) {
+		height: 615px;
+	}
+
+	@media screen and (max-width: 1800px) {
+		background-size: unset;
+	}
+
+	@media screen and (max-width: 1600px) {
+		height: 545px;
+	}
+
+	@media screen and (max-width: 1366px) {
+		padding: 0 50px 0 0;
+	}
+
+	@media screen and (max-width: 550px) {
+		padding: 0 20px;
+	}
+
 	article{
 		display: flex;
 		flex-direction: column;
 		gap: 24px;
-		p{
+		
+		p {
 			color: #FFFFFF;
 			font-size: 75px;
 			justify-content: flex-start;
 			display: flex;
+
+			@media screen and (max-width: 1919px) {
+				font-size: 64px;
+			}
+
+			@media screen and (max-width: 1600px) {
+				font-size: 48px;
+			}
+
+			@media screen and (max-width: 850px) {
+				font-size: 36px;
+			}
 		}
 		.caption{
 			color: #FFFFFF;
@@ -24,6 +59,26 @@
 			font-weight: 700;
 			justify-content: flex-end;
 			display: flex;
+
+			@media screen and (max-width: 1919px) {
+				font-size: 56px;
+			}
+
+			@media screen and (max-width: 1600px) {
+				font-size: 36px;
+			}
+
+			@media screen and (max-width: 850px) {
+				font-size: 24px;
+			}
 		}
 	}
+
+	& img {
+		height: 480px;
+
+		@media screen and (max-width: 550px) {
+			display: none;
+		}
+ 	}
 }
