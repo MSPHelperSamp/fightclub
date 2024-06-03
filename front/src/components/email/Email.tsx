@@ -22,7 +22,7 @@ const Email = () => {
       });
   }
   return (
-    <section id="JoinClub" className="email">
+    <sectionclassName="email">
       <form onSubmit={(event) => handleFormSubmit(event)}>
         <p>
           If you have a questions or proposals -<br></br>write your email and we
@@ -36,7 +36,7 @@ const Email = () => {
           placeholder="email..."
         />
       </form>
-    </section>
+    </sectionclassName=>
   );
 };
 
