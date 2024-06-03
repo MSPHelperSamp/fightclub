@@ -22,7 +22,7 @@ const Email = () => {
       });
   }
   return (
-    <section className="email">
+    <section id="JoinClub" className="email">
       <form onSubmit={(event) => handleFormSubmit(event)}>
         <p>
           If you have a questions or proposals -<br></br>write your email and we
